@@ -1,0 +1,298 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f6f6;
+}
+.container {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+
+.main-nav a {
+    color: #222;
+}
+.nav {
+  margin-bottom: 1.5em;
+  padding: 0 3%;
+  text-transform: uppercase;
+}
+.bottom {
+    display: inline;
+    float: left;
+    margin-left: 5%;
+}
+.back-to-top {
+    float: right;
+    margin-right: 5%;
+    color: #222;
+}
+.back-to-top a:hover {
+  color: white;
+  cursor: pointer;
+}
+.back-to-top a {
+ color: #222;
+}
+
+.nav li {
+
+   background-color: #fff;
+   margin-bottom: 4px;
+   padding: 10px 15px;
+}
+.nav a {
+  transition: all .5s;
+  display: block;
+  color: #222;
+}
+.nav a:hover {
+  color: white
+}
+
+header p {
+    padding: 0 3%;
+}
+.photo {
+    width: 75%;
+    margin: 0 auto;
+}
+.portfolio p {
+   width: 80%;
+   margin: auto;
+   margin-bottom: 5em;
+}
+header img {
+  border-radius: 555px;
+  width: 50%;
+  MARGIN: 1em;
+  border-style: solid;
+  border-width: .25em;
+  border-color: white;
+}
+.container img {
+  width: 100%;
+}
+.profile {
+    background: #c4c8ca;
+}
+
+ .inner-title {
+    padding-bottom: 5%;
+    }
+
+footer p {
+    padding: 0 3%;
+}
+
+.footer-nav {
+    display: none;
+}
+ footer .main-nav {
+        border-top-style: solid;
+        border-top-color: #dfdee0;
+        border-top-width: 1px;
+    }
+ .skills {
+     margin-top: 3em;
+ }
+ .skill-container {
+     margin-top: 2.5em;
+     background-color: #fdfff0;
+ }
+ .skills p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Styles for larger screens */
+
+@media (min-width: 768px) {
+        header,
+    footer {
+        margin: 0% auto;
+    }
+    .contact {
+        width: 44%;
+        margin: 0 auto;
+    }
+
+    .main-nav a {
+        display: block;
+        padding: 10px 15px;
+        color: #222;
+    }
+
+    .profile {
+        width: 35%;
+        float: right;
+        margin: 2% 1.5%;
+    }
+    .banner p {
+        text-align: left;
+        font-size: 1.5em;
+    }
+    .title {
+        text-align: center;
+    }
+
+    .container {
+		width: 95%;
+	}
+    .inner-title {
+        display: block;
+    }
+    .portfolio {
+        width: 46%;
+        float: left;
+        margin: 1%;
+    }
+    .skills {
+        width: 46%;
+        float: left;
+        margin: 1%;
+    }
+
+    .nav {
+        display: inline-block;
+        padding: 0;
+        margin: 0.77em 0;
+    }
+    .nav li {
+        display: inline-block;
+        background: #f7f6f6;
+    }
+    .footer-nav {
+        display: inline-block;
+        float: right;
+    }
+    .back-to-top {
+        display: none;
+    }
+
+    .footer-nav li {
+        float: left;
+        font-weight: bold;
+    }
+    .bottom {
+        margin-left: 1%;
+        padding-top: 0.75em;
+    }
+}
+@media (min-width: 1024px) {
+
+    header,
+    footer {
+        max-width: 1150px;
+        margin: 0% auto;
+    }
+    .contact {
+        width: 44%;
+        margin: 0 auto;
+    }
+
+    .main-nav a {
+        text-align: right;
+        display: block;
+        padding: 10px 15px;
+        color: #222;
+    }
+
+    .profile {
+        width: 35%;
+        float: right;
+        margin: 2% 1.5%;
+    }
+
+
+    .banner p {
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+    .container {
+		width: 95%;
+		max-width: 1150px;
+	}
+    .title {
+        float: left;
+    }
+    .inner-title {
+        display: block;
+    }
+    .portfolio {
+        width: 31%;
+        float: left;
+        margin: 1%;
+    }
+    .skills {
+        width: 31%;
+        float: left;
+        margin: 1%;
+    }
+
+    .nav {
+        float: right;
+        padding: 0;
+        margin: 0.77em 0;
+    }
+    .nav li {
+        float: left;
+        background: #f7f6f6;
+    }
+    .footer-nav {
+        display: inline-block;
+        float: right;
+    }
+    .back-to-top {
+        display: none;
+    }
+
+    .footer-nav li {
+        float: left;
+        font-weight: bold;
+    }
+    .bottom {
+        margin-left: 1%;
+        padding-top: 0.75em;
+    }
+
+
+}
+
+
+
+
+
+
+
